@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
     MQTT mqtt = null;
     private final String TAG = "MQTTClient";
     private final String sAddress = "tcp://ec2-52-53-110-212.us-west-1.compute.amazonaws.com:61616";
-//    private final String sAddress = "tcp://192.172.3.23:2883";
+    //    private final String sAddress = "tcp://192.172.3.23:2883";
+    //"http://ec2-52-53-110-212.us-west-1.compute.amazonaws.com:8161"; useraname:admin,pass:admin
+
     private ProgressDialog progressDialog = null;
     FutureConnection connection = null;
 
